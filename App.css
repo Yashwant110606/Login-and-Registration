@@ -1,0 +1,116 @@
+/* === Global Styles === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f7ff; /* soft light blue background */
+  color: #333;
+}
+
+/* === App Container === */
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+/* === Title === */
+.app-container h1 {
+  color: #2d3e50;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* === Form Container === */
+.form-container {
+  background-color: #ffffff;
+  border: 1px solid #dce3f0;
+  border-radius: 12px;
+  width: 320px;
+  margin: 0 auto;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+/* === Input Fields === */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #cdd7e5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #5b9df9;
+  box-shadow: 0 0 4px rgba(91, 157, 249, 0.4);
+}
+
+/* === Button Styles === */
+button {
+  width: 100%;
+  background-color: #5b9df9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #4287f5;
+}
+
+/* === Links & Text === */
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.link {
+  color: #4287f5;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #2a63c3;
+}
+
+/* === Messages === */
+.error {
+  color: #e63946;
+  text-align: center;
+  font-weight: 500;
+}
+
+.message {
+  color: #06a77d;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* === Home Container === */
+.home-container {
+  background-color: #ffffff;
+  border: 1px solid #dce3f0;
+  border-radius: 12px;
+  width: 320px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.home-container h2 {
+  color: #2d3e50;
+  margin-bottom: 20px;
+}
